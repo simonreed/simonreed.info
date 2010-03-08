@@ -50,6 +50,11 @@ header h1 {
   text-decoration: none!important;	
 }
 
+header h2{
+	font-size : 2em;
+  text-decoration: none!important;	
+}
+
 a {
   color: black;
   text-decoration: none;
