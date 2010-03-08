@@ -11,6 +11,10 @@ body {
 header, footer, section, article {
 	display: block;
 }
+
+header {
+	background: url("http://dailybooth.com/simonreed/latest/large.jpg");
+}
 #content {
 }
 #by {
