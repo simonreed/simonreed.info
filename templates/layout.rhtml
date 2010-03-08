@@ -22,3 +22,30 @@
   </body>
 </html>
 
+<!doctype html> 
+<html> 
+  <head> 
+    <link rel="stylesheet" type="text/css" href="cv.css"> 
+    <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" /> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <title>Simon Reed - Ruby Developer in London</title> 
+  </head> 
+  <body> 
+	<header id="me"><h1><a href="/">Simon Reed</a></h1></header> 
+	<section> 	
+		<a href="http://github.com/simonreed">Github</a> 
+		|
+		<a href="http://twitter.com/simonreed">Twitter</a> 		
+		|
+		<a href="http://linkedin.com/in/simonpreed">LinkedIn</a>		
+	</section> 
+    <section> 
+      <%= yield %>  
+    </section> 
+    <footer> 
+		<a href="/about">Brought to you</a> in combination with word awesome and the number 9.
+    </footer> 
+<a href="http://github.com/remy/html5demos"><img style="position: absolute; top: 0; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+  </body> 
+</html> 
+

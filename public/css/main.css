@@ -12,8 +12,8 @@ header, footer, section, article {
 	display: block;
 }
 
-section#me {
-	background: url("http://dailybooth.com/simonreed/latest/large.jpg");
+header {
+	background: white;
 }
 #content {
 }
@@ -37,27 +37,34 @@ section#me {
   margin-right: 30px;
 }
 a {
-  color: #b83000;
+  color: red;
 }
 
 header h1 {
-	font-size : 40px;
+	font-size : 3em;
+  text-decoration: none!important;	
 }
 
-h1 a {
+a {
   color: black;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
-body > header > h1 {
+
+article {
+	padding-top: 20px;	
+}
+
+body > article > header > h2 {
 	border-left: 30px solid black;
 	padding-left: 30px;
-  font-size: 201px;
+  font-size: 180px;
   margin: 100px 0 15px 0;
   font-weight: normal;
 }
+
 .post header {
 	margin-bottom: 10px;
 }
