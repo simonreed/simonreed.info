@@ -12,7 +12,7 @@ header, footer, section, article {
 	display: block;
 }
 
-header {
+section#me {
 	background: url("http://dailybooth.com/simonreed/latest/large.jpg");
 }
 #content {
