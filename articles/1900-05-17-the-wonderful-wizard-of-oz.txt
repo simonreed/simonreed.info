@@ -1,5 +1,5 @@
-title: The Wonderful Wizard of Oz
-author: Lyman Frank Baum
+title: Awesomeness
+author: Simon Reed
 date: 1900/05/17
 
 Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, 
