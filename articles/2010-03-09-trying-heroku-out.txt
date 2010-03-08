@@ -1,0 +1,6 @@
+title: Trying heroku out
+author: Simon Reed
+date: 2010/03/09
+
+So far I'm very impressed with Heroku, at least for small sites it makes deployment and development very easy. Sweet.
+
