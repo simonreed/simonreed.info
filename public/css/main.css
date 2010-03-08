@@ -16,7 +16,11 @@ header {
 	background: white;
 }
 
-section {
+nav a {
+	color: red;
+}
+
+section, nav {
 	padding-bottom: 20px;
 }
 
