@@ -35,6 +35,11 @@ header, footer, section, article {
 a {
   color: #b83000;
 }
+
+header h1 {
+	font-size : 40px;
+}
+
 h1 a {
   color: black;
   text-decoration: none;
