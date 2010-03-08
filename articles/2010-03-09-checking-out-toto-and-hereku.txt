@@ -1,0 +1,5 @@
+title: Checking out Toto and Hereku
+author: Simon Reed
+date: 2010/03/09
+
+Wow this really feels like a simple and very powerful blogging platform.
