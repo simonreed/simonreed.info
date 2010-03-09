@@ -17,12 +17,28 @@
 		and				
 		<a href="http://twitter.com/simonreed">blabber</a> about. 		
 	</nav> 
+	<section class="listen" style="display:none;">
+		<div id="hypem-widget"></div>
+		<script type="text/javascript"	 src="http://hypem.com/widget/v2/loved/simonreed/5/hype.js?bcol=FFFFFF"></script>		
+	</section>
     <section> 
       <%= yield %>  
     </section> 
     <footer> 
 		<a href="/about">Brought to you</a> by the word awesome and the number 9.
     </footer> 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+	<script> 
+	$('a.listen').click(function () {
+	  	$('section.listen').toggle();
+		return false;
+	});
+
+	// $('tr td.demo').click(function () {
+	//   window.location = $(this).find('a').attr('href');
+	// });
+
+	</script>
 <a href="http://github.com/simonreed/simonreed.info"><img style="position: absolute; top: 0; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub" /></a>
   </body> 
 </html> 
