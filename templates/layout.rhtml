@@ -12,11 +12,14 @@
 		I'm a Ruby/Rails developer but here's what I 
 		<a href="/index">think</a>,
 		<a href="http://www.nicetripper.com/about_us">love</a>,
-		<a href="http://github.com/simonreed">do</a>,
+		<a class="do" href="http://github.com/simonreed">do</a>,
 		<a class="listen" href="http://hypem.com/simonreed">listen to</a>
 		and				
 		<a href="http://twitter.com/simonreed">blabber</a> about. 		
 	</nav> 
+	<section class="do" style="display:none;">
+		<img src="/images/nicetripper.png">
+	</section>	
 	<section class="listen" style="display:none;">
 		<div id="hypem-widget"></div>
 		<script type="text/javascript"	 src="http://hypem.com/widget/v2/loved/simonreed/5/hype.js?bcol=FFFFFF"></script>		
@@ -29,8 +32,14 @@
     </footer> 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
 	<script> 
+	$('a.do').click(function () {
+	  	$('section.listen').hide();		
+	  	$('section.do').slideDown("slow");
+		return false;
+	});	
 	$('a.listen').click(function () {
-	  	$('section.listen').slideToggle("slow");
+	  	$('section.do').hide();		
+	  	$('section.listen').slideDown("slow");
 		return false;
 	});
 

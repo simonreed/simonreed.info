@@ -24,6 +24,10 @@ section {
 	padding-top: 20px;
 }
 
+#hypem-widget b {
+	display: none;
+}
+
 section, nav {
 	padding-top: 20px;	
 	padding-bottom: 20px;
