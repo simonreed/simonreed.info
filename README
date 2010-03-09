@@ -2,3 +2,15 @@ simonreed.info
 =======
 
 A simple example of the [toto](http://cloudhead.io/toto) blogging engine.
+
+Installing:
+
+gem install heroku
+
+git clone git://github.com/simonreed/simonreed.info.git blog
+
+cd blog
+
+heroku create
+
+git push heroku master
