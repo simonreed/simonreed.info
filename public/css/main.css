@@ -28,6 +28,10 @@ section {
 	width: 100%;
 }
 
+#hypem-widget ul li:last {
+	display: none;
+}
+
 #hypem-widget b, #hypem-widget img, #hypem-widget span {
 	display: none;
 }
