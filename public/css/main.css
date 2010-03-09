@@ -28,7 +28,7 @@ section {
 	width: 100%;
 }
 
-#hypem-widget ul li:last {
+#hypem-widget span  {
 	display: none;
 }
 
