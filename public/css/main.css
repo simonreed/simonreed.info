@@ -24,7 +24,11 @@ section {
 	padding-top: 20px;
 }
 
-#hypem-widget b {
+#hypem-widget {
+	width: 100%;
+}
+
+#hypem-widget b, #hypem-widget img, #hypem-widget span {
 	display: none;
 }
 
