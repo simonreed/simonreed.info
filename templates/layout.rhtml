@@ -13,7 +13,7 @@
 		<a href="/index">think</a>,
 		<a href="http://www.nicetripper.com/about_us">love</a>,
 		<a href="http://github.com/simonreed">do</a>,
-		<a href="http://hypem.com/simonreed">listen to</a>
+		<a class="listen" href="http://hypem.com/simonreed">listen to</a>
 		and				
 		<a href="http://twitter.com/simonreed">blabber</a> about. 		
 	</nav> 
@@ -30,6 +30,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
 	<script> 
 	$('a.listen').click(function () {
+		alert('Listen!')
 	  	$('section.listen').toggle();
 		return false;
 	});
