@@ -38,12 +38,12 @@
 	<script> 
 	$('a.love').click(function () {
 	  	$('section.listen').hide();		
-	  	$('section.love').slideDown("slow");
+	  	$('section.love').slideToggle("slow");
 		return false;
 	});	
 	$('a.listen').click(function () {
 	  	$('section.love').hide();		
-	  	$('section.listen').slideDown("slow");
+	  	$('section.listen').slideToggle("slow");
 		return false;
 	});
 
