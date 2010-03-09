@@ -25,6 +25,7 @@ section {
 }
 
 #hypem-widget {
+	text-align: center;
 	width: 100%;
 }
 
@@ -32,7 +33,7 @@ section {
 	display: none;
 }
 
-#hypem-widget b, #hypem-widget img, #hypem-widget span {
+#hypem-widget b {
 	display: none;
 }
 
