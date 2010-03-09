@@ -3,16 +3,18 @@ author: Simon Reed
 date: 2010/03/09
 
 <h3>nicetripper.com</h3>
+<h4>Founder, Jan 2010 - Present</h4>
 <p>
-Founder
+I started nicetripper.com so that I can understand all the concerns of running a customer facing startup. The process of going from idea all the way to launch as a viable business. This has really helped me understand how important all parts of the business are how development can be a vital difference.
 </p>
 
 <h3>TouchLocal.com</h3>
+<h4>Ruby Developer, Mar 2009 - Present</h4>
 <p>
-Ruby Developer
 </p>
 
 <h3>DigitalLook.com</h3>
+<h4>Web Developer, Dec 2006 - Mar 2009</h4>
 <p>
 Perl Developer
 </p>
