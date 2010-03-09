@@ -11,14 +11,18 @@
 	<nav> 	
 		I'm a Ruby/Rails developer but here's what I 
 		<a href="/index">think</a>,
-		<a href="http://www.nicetripper.com/about_us">love</a>,
-		<a class="do" href="http://github.com/simonreed">do</a>,
+		<a class="love" href="http://www.nicetripper.com/about_us">love</a>,
+		<a href="http://github.com/simonreed">do</a>,
 		<a class="listen" href="http://hypem.com/simonreed">listen to</a>
 		and				
 		<a href="http://twitter.com/simonreed">blabber</a> about. 		
 	</nav> 
-	<section class="do" style="display:none;">
-		<img src="/images/nicetripper.png">
+	<section class="love" style="display:none;">
+		<h2>nicetripper.com</h2>
+		<p>
+			nicetripper is a joint project of mine and Chris Mahon. It helps holidaymakers who don't know where to go find somewhere right for them. I'm the lead developer and founder.
+		</p>	
+		<img style="width:100%" src="/images/nicetripper.png">
 	</section>	
 	<section class="listen" style="display:none;">
 		<div id="hypem-widget"></div>
@@ -32,20 +36,16 @@
     </footer> 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
 	<script> 
-	$('a.do').click(function () {
+	$('a.love').click(function () {
 	  	$('section.listen').hide();		
-	  	$('section.do').slideDown("slow");
+	  	$('section.love').slideDown("slow");
 		return false;
 	});	
 	$('a.listen').click(function () {
-	  	$('section.do').hide();		
+	  	$('section.love').hide();		
 	  	$('section.listen').slideDown("slow");
 		return false;
 	});
-
-	// $('tr td.demo').click(function () {
-	//   window.location = $(this).find('a').attr('href');
-	// });
 
 	</script>
 <a href="http://github.com/simonreed/simonreed.info"><img style="position: absolute; top: 0; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub" /></a>
