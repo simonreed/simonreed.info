@@ -6,3 +6,5 @@ I've recently been reading Chad Fowler's The Passionate Programmer, and it's one
 
 Instead of only approaching Ruby or any other language it addresses some common problems that meets all programmers both freelance and employee.
 
+One thing I'm taking from it is, <h2>PROGRAMMERS SUCK AT MARKETING THEMSELVES</h2>.
+
