@@ -6,7 +6,7 @@ I've recently been reading <a href="http://chadfowler.com/">Chad Fowler's</a> <a
 
 Instead of only approaching Ruby or any other language it addresses some common problems that meets all programmers both freelance and employee.
 
-One thing I'm taking from it is, <b>DEVELOPERS SUCK AT MARKETING THEMSELVES</b>.
+One thing I'm taking from it is, <b>developers suck at marketing themselves</b>.
 
 Marketing is hard and as developers it seems all too easy to ignore marketing as something anyone can do. Ok then go build that amazing app, now see how far your amazing product does without anyone knowing it's there. Marketing needs to be in a developers toolset, that's true for freelancers, employees and entrepreneurs.
 
