@@ -2,7 +2,7 @@ title: The Passionate Programmer
 author: Simon Reed
 date: 2010/03/10
 
-I've recently been reading Chad Fowler's The Passionate Programmer, and it's one of the best programming books I've read. With no code examples you might wonder whether this is in fact a programming book, but I think that's why it's so good. 
+I've recently been reading <a href="http://chadfowler.com/">Chad Fowler's</a> <a href="http://www.pragprog.com/titles/cfcar2/the-passionate-programmer">The Passionate Programmer</a>, and it's one of the best programming books I've read. With no code examples you might wonder whether this is in fact a programming book, but I think that's why it's so good. 
 
 Instead of only approaching Ruby or any other language it addresses some common problems that meets all programmers both freelance and employee.
 
